@@ -1,0 +1,146 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.page1{
+    height: 100vh;
+    width: 100%;
+}
+.page1 h1{
+    font-size: 30px;
+    margin-left: 8%;
+}
+label{
+    display: block;
+    font-size: 20px;
+    margin-left: 8%;
+    margin-top: 20px;
+}
+input{
+    margin-left: 8%;
+    width: 80%;
+    height: 30px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    display: block;
+}
+button{
+    background-color: deepskyblue;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    padding: 6px;
+    width: 10%;
+    height: 50px;
+    margin-left: 8%;
+    margin-top: 20px;
+   
+
+}
+input:focus{
+    border-color:blue ;
+}
+.navbar{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+}
+.new{
+    text-decoration: none;
+    color: inherit;
+}
+.start{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+}
+.start p{
+    font-size: 40px;
+    margin-top: 0%;
+}
+.start img{
+    height: 30px;
+    width: 30px;
+    padding:10px ;
+}
+.list1{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+}
+.list1 li:hover{
+    color: blue; 
+}
+.main{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;  
+}
+.hello{
+    margin-left: 20px;
+}
+.code{
+    margin-left: 40px;
+}
+.main p{
+    font-size: 20px;
+}
+.who{
+      margin-top: 20px;
+      margin-left: 20px;
+}
+.bold{
+    height: 20%;
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 70px;
+    
+}
+.bold p{
+    font-size: 130px;
+    font-weight: 600;
+    margin-top: -90px;
+
+}
+.page2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    
+}
+.one{
+
+    height: 100%;
+    width: 50%;
+}
+.one img{
+    height: 90%;
+    width: 100%;
+}
+.two{
+    height: 100%;
+    width: 50%;
+}
+.two p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.three{
+    margin-top: 10%;
+}
+hr{
+    width: 95%;
+}
+.page-divider{
+    width: 80%;
+    margin-bottom: 10%;
+
+}
+
